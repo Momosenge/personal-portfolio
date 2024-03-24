@@ -3,86 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Gomolemo Senge</title>
+    <title>Portfolio - Your Name</title>
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts for font styling -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Gomolemo Senge</h1>
+            <h1>Your Name</h1>
             <nav>
                 <ul>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="experience" class="experience">
+    <section class="portfolio">
         <div class="container">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Business Development Agent</h3>
-                <p><strong>Premier Credit </strong> | Pretoria | 2023-2023</p>
+            <h2>Portfolio</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project 1</h3>
+                        <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="project1.html" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Project 2</h3>
+                        <p>Description of Project 2. Nulla venenatis eros nec justo blandit.</p>
+                        <a href="project2.html" class="btn" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Add more projects as needed -->
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="skills">
+                <h2>Skills</h2>
                 <ul>
-                    <li>Generate leads through various channels such as cold calling, email outreach, and networking events.</li>
-                      <li>Conduct research to qualify leads based on factors like business needs, budget, and decision-making authority.</li>  
-                     <li> Initiate contact with qualified leads through calls, emails, and meetings.</li>
-                      <li>  Build and maintain relationships with prospects, addressing their needs and concerns.</li>
-                        <li>Provide support to the sales team throughout the sales process.</li>
-                        <li> Conduct market research to identify new opportunities for growth.</li>
-                        <li>Manage the sales pipeline by tracking and updating lead status in the CRM system.</li>
-                       <li>Collaborate with cross-functional teams to align business development efforts with company objectives.</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>SQL</li>
+                    <li>Git</li>
                 </ul>
             </div>
         </div>
-    </section>
 
-    <section id="skills" class="skills">
         <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Computer Skills </li>
-                <li>Teamwork</li>
-                <li>Communication</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="education" class="education">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="Certificate">
-                <h3>Certificate</h3>
-                <p><strong>University of Johannesburg</strong> | Johannesburg | 2023</p>
-                <p>Short course in Artificial Intelligence </p>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: +1234567890</p>
             </div>
-            <div class="degree">
-                <h3>National Diploma</h3>
-                <p><strong>Tshwane College </strong> | Pretoria | 2022</p>
-                <p>Tourism Management </p>
+
+            <div class="social-media">
+                <h2>Social Media</h2>
+                <ul>
+                    <li><a href="https://linkedin.com/your-profile" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/your-profile" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    <!-- Add more social media links as needed -->
+                </ul>
             </div>
         </div>
-    </section>
 
-    <section id="contact" class="contact">
         <div class="container">
-            <h2>Contact Me</h2>
-            <p>email: mpumisenge@gmail.com</p>
-            <P>contact number: 066 058 3507</P>
-            
+            <h2>Download Resume</h2>
+            <a href="resume.pdf" download class="btn">Download CV</a>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Gomolemo Senge. All rights reserved.</p>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>

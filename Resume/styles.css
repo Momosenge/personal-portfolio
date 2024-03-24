@@ -92,6 +92,49 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
+.skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-info {
+    float: left;
+    width: 40%;
+}
+
+.skills-list {
+    float: left;
+    width: 60%;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+.social-media-links li {
+    margin-bottom: 5px;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-media-links i {
+    margin-right: 5px;
+}
+
+.download-resume {
+    text-align: center;
+}
+
+.download-resume {
+    text-align: center;
+}
+
 footer {
     background: #333;
     color: #fff;
