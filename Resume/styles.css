@@ -54,7 +54,7 @@ nav ul li a {
 }
 
 .hero h2 {
-    font-size: 36px;
+    font-size: 36px; 
     margin-bottom: 20px;
 }
 
@@ -74,7 +74,7 @@ nav ul li a {
 }
 
 .btn:hover {
-    background: #555;
+    background: #333;
 }
 
 /* Styles for content section (About Me page) */
@@ -102,6 +102,44 @@ nav ul li a {
     float: left;
     width: 40%;
 }
+
+.send-btn {
+    /*color: #333;*/
+    font-size: 15px;
+    align-self: flex-start;
+    padding: 0.6em;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .send-btn:before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e8e8e8;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .send-btn:hover:before {
+    opacity: 0.2;
+  }
+  
+  .send-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  
 
 .skills-list {
     float: left;
