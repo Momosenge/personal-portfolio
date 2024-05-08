@@ -44,13 +44,14 @@ nav ul li a {
 }
 
 /* Styles for hero section (Home page) */
-.hero {
+.hero  {
     background: url('images/background-image.png') center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #f4f4f4;
 }
 
 .hero h2 {
@@ -91,16 +92,44 @@ nav ul li a {
     font-size: 16px;
     margin-bottom: 20px;
 }
+.portfolio h2 {
+    text-align: center;
+    font-style: oblique;
+    background-color: #f2f2f2;
+    margin-top: 10%;
+}
+
+.mySlides {
+    display: inline-block;
+    width: 45%; /* Adjust the width to your preference */
+    vertical-align: top; /* Adjust vertical alignment as needed */
+    margin-right: 2%; /* Adjust margin between projects */
+    height: auto;
+}
+
+.project-info {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+/* Add any additional styling you need */
 
 .skills-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 10%;
 }
 
+.contact {
+    margin-top: 10%;
+}
 .contact-info {
-    float: left;
+    float: inline-start;
     width: 40%;
+    padding-left: 20%;
+    margin-top: auto;
 }
 
 .send-btn {
