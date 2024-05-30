@@ -48,11 +48,18 @@
           background-size: cover;
           background-position: center;
           padding: 80px 0; /* Add some padding to the section */
+          width: 100vw; /* Set the width to 100% of the viewport width */
+          position: relative; /* Set the position to relative */
+          left: 50%; /* Move the section to the center */
+          transform: translateX(-50%); /* Shift the section back by 50% of its own width */
         ">
           <div class="content-wrapper" style="
-            background-color: transparent; /* White background with 70% opacity */
+            background-color: rgba(255, 255, 255, 0.7); /* White background with 70% opacity */
             padding: 40px; /* Add some padding to the content */
             border-radius: 8px; /* Add some rounded corners */
+            position: relative; /* Set the position to relative */
+            max-width: 800px; /* Set a max-width for the content wrapper */
+            margin: 0 auto; /* Center the content wrapper horizontally */
           ">
             <h1>What I Do</h1>
             <div class="what-i-do">
@@ -186,13 +193,26 @@
           </div>
           
           <section class="contact" style="
-          background-image: url('');
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-          padding: 80px 0; /* Add some padding to the section */
-          color: white; /* Set the text color to white */
-        ">
+  background-image: url('/Resume/images/download.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0; /* Add some padding to the section */
+  color: white; /* Set the text color to white */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  position: relative; /* Set the position to relative */
+  left: 50%; /* Move the section to the center */
+  transform: translateX(-50%); /* Shift the section back by 50% of its own width */
+">
+  <div class="container">
+    <div class="content-wrapper" style="
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+      padding: 40px; /* Add some padding to the content */
+      border-radius: 8px; /* Add some rounded corners */
+      position: relative; /* Set the position to relative */
+      max-width: 800px; /* Set a max-width for the content wrapper */
+      margin: 0 auto; /* Center the content wrapper horizontally */
+    ">
           <div class="container">
             <h2>Contact Me</h2>
             <p>Feel free to get in touch with me using the form below:</p>
@@ -225,25 +245,23 @@
       
           <div class="container">
               <div class="contact-info">
-                  <h2>Contact Information</h2>
-                  <p>Email: your.email@example.com</p>
-                  <p>Phone: +27 66 058 3507</p>
-              </div>
-      
-              <div class="social-media">
-                  <h2>Social Media</h2>
-                  <ul>
-                      <li><a href="https://linkedin.com/your-profile" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                      <li><a href="https://github.com/your-profile" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-                      <!-- Add more social media links as needed -->
+                  
                   </ul>
               </div>
           </div>
       
           <footer>
-              <div class="container">
-                  <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <div class="container">
+              <div class="contact-info">
+                <p>Email: your.email@example.com</p>
+                <p>Phone: +27 66 058 3507</p>
               </div>
+              <div class="social-media">
+                <a href="https://linkedin.com/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/your-profile" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+              <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
           </footer>
       
           <!-- Link to external JavaScript file -->
