@@ -93,9 +93,11 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.Wid-hero {
+.Wid-hero h1 {
     text-align: center;
     margin-bottom: 40px;
+    color: white;
+
   }
   
   .what-i-do {
