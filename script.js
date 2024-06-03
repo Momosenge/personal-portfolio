@@ -57,3 +57,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all the social media icons
+    var socialIcons = document.querySelectorAll(".social-icons a");
+  
+    // Add a hover effect to the social media icons
+    socialIcons.forEach(function(icon) {
+      icon.addEventListener("mouseover", function() {
+        this.style.transform = "scale(1.2)";
+      });
+  
+      icon.addEventListener("mouseout", function() {
+        this.style.transform = "scale(1)";
+      });
+    });
+  });
