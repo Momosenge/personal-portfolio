@@ -87,7 +87,10 @@ body {
 }
 
 .logo-container:after {
-  content: "Learn More \2193";
+  content: "";
+}
+
+.logo-container .learn-more {
   font-size: 14px;
   position: absolute;
   bottom: -30px;
@@ -95,11 +98,14 @@ body {
   transform: translateX(-50%);
   opacity: 0;
   transition: opacity 0.3s ease;
+  text-decoration: none;
+  color: inherit;
 }
 
-.logo-container:hover:after {
+.logo-container:hover .learn-more {
   opacity: 1;
 }
+
 .about-me{
   display: flex;
   width: 80%;
